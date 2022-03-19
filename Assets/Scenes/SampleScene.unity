@@ -167,9 +167,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefab: {fileID: 1065110410111635343, guid: f85cd0dabef9a4bd7b8e5f22eb42abf7, type: 3}
-  spawnRate: 1
-  minHeight: -1
-  maxHeight: 4
+  spawnRate: 1.2
+  minHeight: -2
+  maxHeight: 3
 --- !u!1 &200065938
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2df0ebe8d3a482486b4460d0f2388c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 1
+  animationSpeed: 1.25
 --- !u!61 &215918049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 516810531}
   - component: {fileID: 516810534}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db2df0ebe8d3a482486b4460d0f2388c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationSpeed: 0.5
+  animationSpeed: 0.75
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

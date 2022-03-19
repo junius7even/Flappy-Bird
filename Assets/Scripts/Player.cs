@@ -43,7 +43,7 @@ public class Player : MonoBehaviour
             }
         }
 
-        direction.y += gravity * Time.deltaTime;
+        direction.y += gravity * 1.5f * Time.deltaTime;
         transform.position += direction * Time.deltaTime; // Time.deltaTime makes the game frame rate consistent, meaning framerate don't matter
 
     }
